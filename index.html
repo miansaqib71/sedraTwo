@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="geolocation 'self';">
+    <meta http-equiv="Content-Security-Policy" content="geolocation 'self' https://api.example.com;">
+    <meta name="keywords" content="SEDRA-2 PROJECT IN RIYADH SAUDI ARABIA dEVELOPED BY SAQIB ZAFAR AJ SAUDI" />
+    <title>Sedra-2 Project IN RIYADH SAUDI ARABIA dEVELOPED BY SAQIB ZAFAR AJ SAUDI</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <!-- Leaflet Locate plugin -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.js"></script>
+    <style>
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        .info h4 {
+            margin: 0 0 5px;
+            color: #777;
+        }
+
+        .legend {
+            line-height: 18px;
+            color: #555;
+        }
+
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+
+        .header {
+            text-align: center;
+            height: 30px;
+            width: 100%;
+            background-color: chocolate;
+        }
+
+        @-ms-viewport {
+            width: 100vw;
+            min-zoom: 100%;
+            zoom: 100%;
+        }
+
+        @viewport {
+            width: 100vw;
+            min-zoom: 100%;
+            zoom: 100%;
+        }
+
+        @-ms-viewport {
+            user-zoom: fixed;
+            min-zoom: 100%;
+        }
+
+        @viewport {
+            user-zoom: fixed;
+            min-zoom: 100%;
+        }
+    </style>
+
+</head>
+
+<body scroll="no" style="overflow: hidden">
+    <h2 class="header">
+        Sedra-2 Project Roshn with Aj Saudi
+    </h2>
+    <div id="map"></div>
+</body>
+
+</html>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<!-- Leaflet-KMZ -->
+<script src="https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js"></script>
+
+<script src="./data/sedraProject.js"></script>
+<script src="./data/sedra2A.js"></script>
+<script src="./data/Sedra2AStation.js"></script>
+<script src="./data/sedraTwoALevel.js"></script>
+<script src="./data/SedraTwoStationAndLevel.js"></script>
+<script src="./data/sedraTwoB.js"></script>
+<script src="./data/sedraTwoBStation.js"></script>
+<script src="./data/sedraTwoBLevel.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<script>
+
+    /*===================================================
+                      OSM  LAYER               
+===================================================*/
+
+    var map = L.map('map').setView([24.8543, 46.7537], 15);
+    var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
+    osm.addTo(map);
+
+    /*===================================================
+                          MARKER               
+    ===================================================*/
+
+    // var singleMarker = L.marker([24.84657166562397, 46.745073621138346], 13);
+    // singleMarker.addTo(map);
+    // var popup = singleMarker.bindPopup('This is a Sedra-2A Project')
+    // popup.addTo(map);
+
+    // var sedra2B = L.marker([24.8668, 46.7651], 13);
+    // sedra2B.addTo(map);
+    // var popup = sedra2B.bindPopup('This is a Sedra-2B Project')
+    // popup.addTo(map);
+
+    /*===================================================
+                         TILE LAYER               
+    ===================================================*/
+
+    var CartoDB_DarkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+    });
+    CartoDB_DarkMatter.addTo(map);
+
+    // Google Map Layer
+
+    googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+        maxZoom: 20,
+        subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+    });
+    googleStreets.addTo(map);
+
+    // Satelite Layer
+    googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+        maxZoom: 20,
+        subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+    });
+    googleSat.addTo(map);
+
+    // Add a tile layer
+    var tile_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    /////
+    map.locate({ setView: true, maxZoom: 16 });
+    function onLocationFound(e) {
+        var radius = e.accuracy;
+
+        L.marker(e.latlng).addTo(map)
+            .bindPopup("I am Here").openPopup();
+            // .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+        L.circle(e.latlng, radius).addTo(map);
+    }
+
+    map.on('locationfound', onLocationFound);
+    function onLocationError(e) {
+        alert(e.message);
+    }
+
+    map.on('locationerror', onLocationError);
+
+    /*===================================================
+                          GEOJSON               
+    ===================================================*/
+
+    // var nepalData = L.geoJSON(nepaldataa).addTo(map);
+    var sedraProject = L.geoJSON(sedraProject, {
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup('<b>This is a </b>' + feature.properties.name)
+        },
+        style: {
+            fillColor: '#961b0b',
+            fillOpacity: 0.1,
+            color: 'green'
+        }
+    }).addTo(map);
+
+
+    //  Sedra TWo A Road Data shwo 
+
+    var SedraTwoA = L.geoJSON(sedraTwoA, {
+        pointToLayer: (feature, latlng) => {
+            // Customize the marker as needed
+            var markerOptions = {
+                radius: 8,
+                color: '#000',
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.1
+            };
+
+            // Create a marker with text label
+            var marker = L.circleMarker(latlng, markerOptions)
+                .bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'text-label' });
+
+            return marker;
+        }
+    }).addTo(map);
+    // // Sedra Two A Station Data Show
+    var SedraTwoAStation = L.geoJSON(SedraTwoAStation, {
+        pointToLayer: (feature, latlng) => {
+            // Customize the marker as needed
+            var markerOptions = {
+                radius: 8,
+                color: '#000',
+                opacity: 0.5,
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.1
+            };
+
+            // Create a marker with text label
+            var marker = L.circleMarker(latlng, markerOptions)
+                .bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'text-label' });
+
+            return marker;
+        }
+    }).addTo(map);
+
+    // sedra two a level station data show
+    // var sedraTwoALevel = L.geoJSON(sedraTwoALevel, {
+    //     pointToLayer: (feature, latlng) => {
+    //         // Customize the marker as needed
+    //         var markerOptions = {
+    //             radius: 8,
+    //             color: '#000',
+    //             opacity: 0.5,
+    //             weight: 1,
+    //             opacity: 1,
+    //           fillOpacity: 0.1
+    //         };
+
+    //         // Create a marker with text label
+    //         var marker = L.circleMarker(latlng, markerOptions)
+    //             .bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'text-label' });
+
+    //         return marker;
+    //     }
+    // }).addTo(map);
+
+    // Sedra Two B Data Show
+    // var sedraTwoB = L.geoJSON(sedraTwoB, {
+    //     onEachFeature: function (feature, L) {
+    //         // layer.bindPopup(feature.properties.name).openPopup();
+    //         L.bindPopup('<b>Road name </b>' + feature.properties.name)
+    //     },
+    // }).addTo(map);
+
+    var sedraTwoB = L.geoJSON(sedraTwoB, {
+        pointToLayer: (feature, latlng) => {
+            // Customize the marker as needed
+            var markerOptions = {
+                radius: 8,
+                color: '#000',
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.1
+            };
+
+            // Create a marker with text label
+            var marker = L.circleMarker(latlng, markerOptions)
+                .bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'text-label' });
+
+            return marker;
+        }
+    }).addTo(map);
+
+
+
+    //  Sedra Two A station Data Show
+    var sedraTwoBStation = L.geoJSON(sedraTwoBStation, {
+        pointToLayer: (feature, latlng) => {
+            // Customize the marker as needed
+            var markerOptions = {
+                radius: 8,
+                color: '#000',
+                opacity: 0.5,
+                weight: 1,
+                opacity: 1,
+                fillOpacity: 0.1
+            };
+
+            // Create a marker with text label
+            var marker = L.circleMarker(latlng, markerOptions)
+                .bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'text-label' });
+
+            return marker;
+        }
+    }).addTo(map);
+    // Sedra Two A Level Data Show
+    //  var sedraTwoBlevel = L.geoJSON(sedraTwoBlevel, {
+    //     pointToLayer: (feature, latlng) => {
+    //         // Customize the marker as needed
+    //         var markerOptions = {
+    //             radius: 8,
+    //             color: '#000',
+    //             opacity: 0.5,
+    //             weight: 1,
+    //             opacity: 1,
+    //           fillOpacity: 0.1
+    //         };
+
+    //         // Create a marker with text label
+    //         var marker = L.circleMarker(latlng, markerOptions)
+    //             .bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'text-label' });
+
+    //         return marker;
+    //     }
+    // }).addTo(map);
+
+
+    // var StationAndLevel = L.geoJSON(stationAndLevel, {
+    //     onEachFeature: function (feature, layer) {
+    //         layer.bindPopup('<b>Road name </b>' + feature.properties.name)
+    //     },
+    // }).addTo(map);
+
+    /*===================================================
+                          LAYER CONTROL               
+    ===================================================*/
+
+    var baseLayers = {
+        "Satellite": googleSat,
+        "Google Map": googleStreets,
+        // "Water Color": Stamen_Watercolor,
+        "Open Street Map": osm,
+        "Tile Layer": tile_layer
+    };
+
+    var overlays = {
+        // "Sedra2B": sedra2B,
+        // "Sedra2A": singleMarker,
+        "Sedra Project": sedraProject,
+        "2A Roads Name": SedraTwoA,
+        "Sedra 2A Station": SedraTwoAStation,
+        "2B Roads Name": sedraTwoB,
+        "Sedra 2B Station": sedraTwoBStation,
+        // "Sedra 2B Level": sedraTwoBlevel,
+
+        // "Sedra 2A Level": sedraTwoALevel,
+
+
+
+    };
+
+    L.control.layers(baseLayers, overlays).addTo(map);
+
+
+    /*===================================================
+                          SEARCH BUTTON               
+    ===================================================*/
+
+    L.Control.geocoder().addTo(map);
+</script>
