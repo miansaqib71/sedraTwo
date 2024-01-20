@@ -6,6 +6,2013 @@ var sedraTwoA = {
       geometry: {
         type: "LineString",
         coordinates: [
+          [46.7413111147854, 24.8403428686976, 0],
+          [46.7413270880664, 24.8403014176817, 0],
+          [46.7413366261599, 24.8402583492497, 0],
+          [46.7413395457894, 24.8402144910004, 0],
+          [46.74133579085871, 24.8401706857091, 0],
+          [46.7413254335292, 24.8401277751322, 0],
+          [46.7413086728321, 24.8400865838329, 0],
+          [46.7412858308443, 24.840047903336, 0],
+          [46.74125734649821, 24.8400124769186, 0],
+          [46.7412237671474, 24.8399809853277, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118EC]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.74145407409979, 24.8404209990608, 0],
+          [46.7414874146838, 24.8403838373009, 0],
+          [46.7415265822255, 24.84035175642, 0],
+          [46.7415706582756, 24.8403255086866, 0],
+          [46.7416186092866, 24.8403057095868, 0],
+          [46.7416693108487, 24.8402928233912, 0],
+          [46.7417215740553, 24.8402871522692, 0],
+          [46.7417741733821, 24.8402888292028, 0],
+          [46.7418258754229, 24.840297814869, 0],
+          [46.7418754678121, 24.8403138985617, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118E3]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7413071258072, 24.8397835367927, 0],
+          [46.741328537683, 24.8397935208624, 0],
+          [46.74135093813601, 24.8398014968266, 0],
+          [46.741374101682, 24.839807384399, 0],
+          [46.7413977951555, 24.8398111243149, 0],
+          [46.7414217800564, 24.8398126789281, 0],
+          [46.7414458149514, 24.83981203259, 0],
+          [46.7414696579036, 24.8398091918067, 0],
+          [46.74149306890861, 24.8398041851737, 0],
+          [46.7415158123098, 24.8397970630882, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118D3]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7465631243467, 24.8466239268193, 0],
+          [46.746612506201, 24.8466491503836, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118D1]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7490362769001, 24.8450295573247, 0],
+          [46.74906391779481, 24.8449844968878, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118D0]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7516040807166, 24.8480384911194, 0],
+          [46.75166341023701, 24.8480256865515, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118CF]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7524627971599, 24.8500057811407, 0],
+          [46.7524497702731, 24.8499555288865, 0],
+        ],
+      },
+      properties: {
+        name: "Line [118CA]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7576151966173, 24.8499930537751, 0],
+          [46.7575875579256, 24.8500381156541, 0],
+        ],
+      },
+      properties: {
+        name: "Line [118C8]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7523855562543, 24.8476726903079, 0],
+          [46.7524349401484, 24.8476979109509, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118C7]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7459436218094, 24.8496559638876, 0],
+          [46.7463609584288, 24.8497763320259, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118C3]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.737984708062, 24.8391573080002, 0],
+      },
+      properties: { name: "L-104" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7351059050644, 24.8405315194429, 0],
+      },
+      properties: { name: "L-104" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.73846703301609, 24.8385726890341, 0],
+          [46.7412237671394, 24.8399809853197, 0],
+        ],
+      },
+      properties: {
+        name: "Line [118B6]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7425192329714, 24.8424781557704, 0],
+          [46.7426255512411, 24.8423048504796, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118B5]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7472762583482, 24.8483061839238, 0],
+          [46.7478517617704, 24.8481819947664, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118B3]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7462696178126, 24.8485234032615, 0],
+          [46.74684512297031, 24.8483992179884, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118B2]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7461862707792, 24.8485413880838, 0],
+          [46.7460082789806, 24.848573523216, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118B1]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.74299807406761, 24.8477507601911, 0],
+          [46.7429646641282, 24.8477493818117, 0],
+          [46.7429313128244, 24.8477471104309, 0],
+          [46.7428980488183, 24.8477439480007, 0],
+          [46.742864900697, 24.8477398972388, 0],
+          [46.7428318969478, 24.8477349616264, 0],
+          [46.7427990659342, 24.8477291454052, 0],
+          [46.7427664358711, 24.8477224535735, 0],
+          [46.74273403480059, 24.8477148918823, 0],
+          [46.7427018905683, 24.8477064668301, 0],
+        ],
+      },
+      properties: {
+        name: "Arc [118AE]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.74364261452149, 24.8477654710457, 0],
+          [46.74345455290689, 24.8477611781359, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118AB]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7439020259774, 24.8477713808189, 0],
+          [46.74372387731551, 24.8477673397144, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118AA]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7441884237993, 24.8477779101741, 0],
+          [46.74422297494161, 24.8477783428998, 0],
+          [46.74425748602751, 24.8477799210345, 0],
+          [46.7442919114655, 24.8477826424932, 0],
+          [46.7443262057777, 24.8477865036807, 0],
+          [46.744360323659, 24.8477914994962, 0],
+          [46.7443942200378, 24.8477976233398, 0],
+          [46.7444278501347, 24.8478048671214, 0],
+          [46.7444611695224, 24.8478132212716, 0],
+          [46.7444941341837, 24.8478226747539, 0],
+        ],
+      },
+      properties: {
+        name: "Arc [118A9]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7451729631219, 24.84833192724849, 0],
+          [46.7450274203676, 24.8481956443497, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118A7]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7446741691009, 24.8492898198471, 0],
+          [46.7445043439067, 24.849240836729, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118A6]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.743569414484, 24.848971167352, 0],
+          [46.74374866973309, 24.8490228728153, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118A5]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7434986874892, 24.8489507678152, 0],
+          [46.7433194361865, 24.8488990641685, 0],
+        ],
+      },
+      properties: {
+        name: "Polyline [118A4]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "GeometryCollection",
+        geometries: [
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7388850269754, 24.847433013714, 0],
+              [46.7388179771283, 24.8473209453665, 0],
+            ],
+          },
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7388179771273, 24.8473209453655, 0],
+              [46.7389091597123, 24.8472755239673, 0],
+            ],
+          },
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7394223571175, 24.8478411947231, 0],
+              [46.7393479070251, 24.8478156729156, 0],
+              [46.739276056668, 24.84778455974, 0],
+              [46.73920730936479, 24.8477480731475, 0],
+              [46.7391421466959, 24.8477064687304, 0],
+              [46.7390810251295, 24.8476600379317, 0],
+              [46.7390243728243, 24.8476091060037, 0],
+              [46.7389725866297, 24.8475540297289, 0],
+              [46.7389260293062, 24.8474951949213, 0],
+              [46.73888502698439, 24.84743301372299, 0],
+            ],
+          },
+        ],
+      },
+      properties: {
+        name: "Polyline [118A3]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "GeometryCollection",
+        geometries: [
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7389801493651, 24.8473941766828, 0],
+              [46.7389091597123, 24.8472755239673, 0],
+            ],
+          },
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7395275048419, 24.8478052493599, 0],
+              [46.7394516642085, 24.8477800907185, 0],
+              [46.7393784377757, 24.8477491487067, 0],
+              [46.7393083541255, 24.8477126466784, 0],
+              [46.7392419191526, 24.8476708481221, 0],
+              [46.7391796124128, 24.847624054759, 0],
+              [46.7391218836604, 24.8475726043651, 0],
+              [46.7390691496027, 24.8475168683325, 0],
+              [46.7390217908911, 24.8474572489886, 0],
+              [46.7389801493742, 24.8473941766918, 0],
+            ],
+          },
+        ],
+      },
+      properties: {
+        name: "Polyline [118A1]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7505916240779, 24.8498015841736, 0],
+      },
+      properties: { name: "PH-2A-LS-78" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7582043748846, 24.8489786074457, 0],
+          [46.7583251709266, 24.8487816588359, 0],
+        ],
+      },
+      properties: {
+        name: "Line [962F]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 10,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
+          [46.7579545414013, 24.8495338239305, 0],
+          [46.7583942414389, 24.8488169296024, 0],
+        ],
+      },
+      properties: {
+        name: "Line [962E]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 10,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75902808539421, 24.8515357738575, 0],
+      },
+      properties: { name: "PH-2A-LS-32" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7583288500894, 24.852882531068, 0],
+      },
+      properties: { name: "L-112" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7576680439219, 24.8520627323755, 0],
+      },
+      properties: { name: "L-112" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75252413122959, 24.8489848747348, 0],
+      },
+      properties: { name: "(41)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7380300926273, 24.8440352864295, 0],
+      },
+      properties: { name: "(28)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74396439854171, 24.842208905574, 0],
+      },
+      properties: { name: "(54)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7495278474361, 24.8444684008413, 0],
+      },
+      properties: { name: "(19)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7490351865414, 24.8452015786149, 0],
+      },
+      properties: { name: "(09)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75025347272521, 24.8465911050235, 0],
+      },
+      properties: { name: "(10)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7478998564084, 24.8499223975477, 0],
+      },
+      properties: { name: "(32)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75103016008909, 24.8508805553398, 0],
+      },
+      properties: { name: "(41)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7525363067992, 24.8506223856164, 0],
+      },
+      properties: { name: "(79)" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7370415348016, 24.847406344074, 0],
+      },
+      properties: { name: "L-109" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.745325593679, 24.8483905694265, 0],
+      },
+      properties: { name: "L-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7431176236227, 24.8477169950777, 0],
+      },
+      properties: { name: "L-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7481218604234, 24.8475154157151, 0],
+      },
+      properties: { name: "L-97" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7521952813881, 24.8500372489054, 0],
+      },
+      properties: { name: "PH2A-LS-81" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7577835296259, 24.8504866025454, 0],
+      },
+      properties: { name: "L-92" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7530524529716, 24.8466520881829, 0],
+      },
+      properties: { name: "PH2A-LS-84" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75225542316409, 24.8468430609512, 0],
+      },
+      properties: { name: "PH2A-LS-82" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.754524195504, 24.8484385882366, 0],
+      },
+      properties: { name: "PH2A-LS-93" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7549712432121, 24.8473818633577, 0],
+      },
+      properties: { name: "PH2A-LS-85" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.751293838783, 24.8459386479731, 0],
+      },
+      properties: { name: "NC-11" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7500509492695, 24.8467947097584, 0],
+      },
+      properties: { name: "NC-11" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7455725765945, 24.8450658895438, 0],
+      },
+      properties: { name: "PH2A-LS-54" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74457912387859, 24.846192794057, 0],
+      },
+      properties: { name: "NC-12" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7451258074413, 24.8453037413685, 0],
+      },
+      properties: { name: "NC-12" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.745520870127, 24.8446552969562, 0],
+      },
+      properties: { name: "NC-12" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7583358525469, 24.8488530470603, 0],
+      },
+      properties: { name: "PH2A-LS-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75464390434101, 24.8486770134101, 0],
+      },
+      properties: { name: "L-101" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7509078259995, 24.8457118188918, 0],
+      },
+      properties: { name: "PH2A-LS-64" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74947266842949, 24.845024852334, 0],
+      },
+      properties: { name: "PH2A-LS-64" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7467831380669, 24.8434500258805, -613],
+      },
+      properties: { name: "PH2A-LS-47" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74599460041069, 24.8430299178728, 0],
+      },
+      properties: { name: "PH2A-LS-31" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7456718100053, 24.8435655924186, 0],
+      },
+      properties: { name: "PH2A-LS-31" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7429525520087, 24.8412426962932, 0],
+      },
+      properties: { name: "PH2A-LS-18" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7430371790738, 24.8415951535832, 0],
+      },
+      properties: { name: "PH2A-LS-19" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75007181125, 24.8484176862887, 0],
+      },
+      properties: { name: "PH2A-LS-73" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7454871241203, 24.848976007686, 0],
+      },
+      properties: { name: "L-99" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7574746510945, 24.8493003161258, 0],
+      },
+      properties: { name: "PH2A-LS-97" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7580619761814, 24.8492575212141, 0],
+      },
+      properties: { name: "PH2A-LS-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7567212072052, 24.8495615463697, 0],
+      },
+      properties: { name: "PH2A-LS-93" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7559803988179, 24.8491862560044, 0],
+      },
+      properties: { name: "PH2A-LS-93" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7500597613894, 24.8509012066892, 0],
+      },
+      properties: { name: "NC-10" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7514633883503, 24.8513160259193, 0],
+      },
+      properties: { name: "NC-10" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75977595009969, 24.8520629944421, 0],
+      },
+      properties: { name: "L-91" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7577824896489, 24.8488198695403, 0],
+      },
+      properties: { name: "PH2A-LS-85" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75542678749, 24.8497604461801, 0],
+      },
+      properties: { name: "PH2A-LS-20" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7541358872196, 24.849826073354, 0],
+      },
+      properties: { name: "PH2A-LS-95" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.754689703895, 24.8493468897158, 0],
+      },
+      properties: { name: "PH2A-LS-94" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75434751382531, 24.8492057300345, 0],
+      },
+      properties: { name: "PH2A-LS-94" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7513024205583, 24.8502218980907, 0],
+      },
+      properties: { name: "PH2A-LS-81" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7395160727311, 24.8478301444203, 0],
+      },
+      properties: { name: "L-96" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7469065841371, 24.846131256282, 0],
+      },
+      properties: { name: "PH2A-LS-53" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7475145150946, 24.8451377100938, 0],
+      },
+      properties: { name: "PH2A-LS-53" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7457118043876, 24.8426520300299, 0],
+      },
+      properties: { name: "PH2A-LS-31" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74438981327199, 24.8426344575512, 0],
+      },
+      properties: { name: "L-102" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7430284940198, 24.8440341425984, 0],
+      },
+      properties: { name: "PH2A-LS-33" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75987958282901, 24.8494596144074, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75730331998871, 24.848066742985, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7552573601436, 24.8470155583314, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7533346360141, 24.8460389574839, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7523449552972, 24.8455354680967, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75118319086609, 24.8449413595743, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7489027148961, 24.8437758168786, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7441956493931, 24.8413715864744, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7332014064347, 24.8363608520118, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7476003917294, 24.8431109289294, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7460435203033, 24.8423143354246, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7424235296584, 24.8404679154439, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7394578389085, 24.8389511854709, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.737437679217, 24.8379205589557, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7440975343747, 24.8468871182077, 0],
+      },
+      properties: { name: "RA-2A-01" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7480108972323, 24.8472106319037, 0],
+      },
+      properties: { name: "RA-2A-06" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7488475408766, 24.8505515522958, 0],
+      },
+      properties: { name: "RA-2A-05" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7517122517351, 24.8452004829028, 0],
+      },
+      properties: { name: "RA-2A-04" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.746707559386, 24.8426456840185, 0],
+      },
+      properties: { name: "RA-2A-03" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74158321419121, 24.8399725285508, 0],
+      },
+      properties: { name: "RA-2A-02" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7418472985926, 24.8413230653603, 0],
+      },
+      properties: { name: "PH2A-LS-21" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.73825231392989, 24.8470079347707, 0],
+      },
+      properties: { name: "L-109" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74181325420349, 24.8474151119189, 0],
+      },
+      properties: { name: "L-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.753010688687, 24.8498296432019, 0],
+      },
+      properties: { name: "L-107" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7526844003019, 24.847495556147, 0],
+      },
+      properties: { name: "PH2A-LS-93" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7422564404062, 24.8421843914219, 0],
+      },
+      properties: { name: "L-110" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7541906226513, 24.846987300117, 0],
+      },
+      properties: { name: "PH2A-LS-85" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7435514134971, 24.8441462043763, 0],
+      },
+      properties: { name: "PH2A-LS-36" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.744449478169, 24.8433240185481, 0],
+      },
+      properties: { name: "PH2A-LS-34" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74369647005329, 24.8435769717425, 0],
+      },
+      properties: { name: "PH2A-LS-35" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74242584549749, 24.8425889898676, 0],
+      },
+      properties: { name: "PH2A-LS-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74621778824929, 24.84437557865269, 0],
+      },
+      properties: { name: "PH2A-LS-51" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7435429097175, 24.8489892795796, 0],
+      },
+      properties: { name: "L-96" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75284892387351, 24.8520205961935, 0],
+      },
+      properties: { name: "NC-10" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7464364155186, 24.843166438304, 0],
+      },
+      properties: { name: "NC-12" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7458967655379, 24.8440439840859, 0],
+      },
+      properties: { name: "NC-12" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7572658768831, 24.8527559915749, 0],
+      },
+      properties: { name: "L-91" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7603870356253, 24.8510758068961, 0],
+      },
+      properties: { name: "L-91" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7414041854169, 24.8417488692413, 0],
+      },
+      properties: { name: "L-110" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7533019291434, 24.8512374699543, 0],
+      },
+      properties: { name: "L-108" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7528556942227, 24.8511758284871, 0],
+      },
+      properties: { name: "L-107" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7503501428695, 24.8445155961175, 0],
+      },
+      properties: { name: "CA-22" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7409239465475, 24.84222294599081, 0],
+      },
+      properties: { name: "PH2A-LS-23" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.741704267117, 24.8425592815215, 0],
+      },
+      properties: { name: "PH2A-LS-24" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7425752762653, 24.841694393105, 0],
+      },
+      properties: { name: "PH2A-LS-21" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7443575503035, 24.8445597317568, 0],
+      },
+      properties: { name: "PH2A-LS-36" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7453555229557, 24.8440738134814, 0],
+      },
+      properties: { name: "PH2A-LS-31" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7447750685245, 24.84502217644, 0],
+      },
+      properties: { name: "PH2A-LS-37" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7455915105293, 24.8453910263418, 0],
+      },
+      properties: { name: "PH2A-LS-55" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.746440030493, 24.845043854476, 0],
+      },
+      properties: { name: "PH2A-LS-52" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74578723520529, 24.8447097387234, -0.004],
+      },
+      properties: { name: "PH2A-LS-52" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7464070175844, 24.8454801440742, 0],
+      },
+      properties: { name: "PH2A-LS-54" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7443461342613, 24.8421722118874, 0],
+      },
+      properties: { name: "PH2A-LS-30" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75094536103799, 24.8459647960931, 0],
+      },
+      properties: { name: "PH2A-LS-66" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75498322647719, 24.8496413132839, 0],
+      },
+      properties: { name: "PH2A-LS-95" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7532807366658, 24.8500119816181, 0],
+      },
+      properties: { name: "PH2A-LS-95" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7537818484447, 24.8480601184843, 0],
+      },
+      properties: { name: "PH2A-LS-93" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7525922244822, 24.8462594261483, 0],
+      },
+      properties: { name: "PH2A-LS-82" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7534400660052, 24.847169982451, 0],
+      },
+      properties: { name: "PH2A-LS-86" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7539374291897, 24.8474958326676, 0],
+      },
+      properties: { name: "PH2A-LS-87" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75272994044651, 24.8471765096747, 0],
+      },
+      properties: { name: "PH2A-LS-84" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7561596735815, 24.848523648388, 0],
+      },
+      properties: { name: "PH2A-LS-90" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7566262965486, 24.8489008198778, 0],
+      },
+      properties: { name: "PH2A-LS-91" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7572007925477, 24.8491145727709, 0],
+      },
+      properties: { name: "PH2A-LS-92" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7567661410879, 24.8483005655472, 0],
+      },
+      properties: { name: "PH2A-LS-85" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7537912109725, 24.8500905134158, 0],
+      },
+      properties: { name: "PH2A-LS-96" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7442462619769, 24.8467102824273, 0],
+      },
+      properties: { name: "NC-12" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7389267693348, 24.8473902558747, 0],
+      },
+      properties: { name: "L-96" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7556904365035, 24.851941111918, 0],
+      },
+      properties: { name: "L-91" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75957051753699, 24.8515660005914, 0],
+      },
+      properties: { name: "L-92" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74190680887191, 24.8480146021511, 0],
+      },
+      properties: { name: "L-100" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7483761351753, 24.8443281761178, 0],
+      },
+      properties: { name: "PH2A-LS-48" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7409462288089, 24.8482371651862, 0],
+      },
+      properties: { name: "L-96" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7446223100412, 24.8420937090494, 0],
+      },
+      properties: { name: "PH2A-LS-31" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7438235981064, 24.8423402080137, 0],
+      },
+      properties: { name: "L-102" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7520600421008, 24.8496359936047, 0],
+      },
+      properties: { name: "PH2A-LS-74" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7510415136816, 24.8499447903793, 0],
+      },
+      properties: { name: "PH2A-LS-79" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7482832347484, 24.84483433253139, 0],
+      },
+      properties: { name: "PH2A-LS-49" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74644033749711, 24.8498289058929, 0],
+      },
+      properties: { name: "L-96" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7489639799105, 24.8470264999097, 0],
+      },
+      properties: { name: "NC-11" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7592961975786, 24.8528517033109, 0],
+      },
+      properties: { name: "L-91" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75470206828909, 24.8514179038418, 0],
+      },
+      properties: { name: "L-91" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7566840095793, 24.8520185170492, 0],
+      },
+      properties: { name: "L-93" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74717101899791, 24.8482928834567, 0],
+      },
+      properties: { name: "L-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75022703785971, 24.8487282147792, 0],
+      },
+      properties: { name: "PH2A-LS-75" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7461872903508, 24.8484995353766, 0],
+      },
+      properties: { name: "L-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7554302576807, 24.8473878774598, 0],
+      },
+      properties: { name: "L-101" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7454257330082, 24.843161529504, 0],
+      },
+      properties: { name: "L-102" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7550119204987, 24.8480661683322, 0],
+      },
+      properties: { name: "L-101" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74215836549891, 24.8408338322294, 0],
+      },
+      properties: { name: "PH2A-LS-18" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7427725306056, 24.8420277379458, 0],
+      },
+      properties: { name: "PH2A-LS-19" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74263744636231, 24.8445204729295, 0],
+      },
+      properties: { name: "PH2A-LS-38" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.743491544191, 24.8447581469342, 0.002],
+      },
+      properties: { name: "PH2A-LS-38" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7453025666564, 24.8443958314757, 0],
+      },
+      properties: { name: "PH2A-LS-35" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7436320304049, 24.8430460283449, 0],
+      },
+      properties: { name: "PH2A-LS-33" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74466651121551, 24.8440719884314, 0],
+      },
+      properties: { name: "PH2A-LS-35" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7462853460006, 24.8461565762452, 0],
+      },
+      properties: { name: "PH2A-LS-56" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7464163835097, 24.8436569467684, 0],
+      },
+      properties: { name: "PH2A-LS-49" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7479402389273, 24.8444287354339, 0],
+      },
+      properties: { name: "PH2A-LS-49" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.747874207929, 24.84503692502649, 0],
+      },
+      properties: { name: "PH2A-LS-50" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7472459083212, 24.8455796795497, 0],
+      },
+      properties: { name: "PH2A-LS-53" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75005365937909, 24.8455105448734, 0],
+      },
+      properties: { name: "PH2A-LS-66" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7525593501079, 24.8467769874804, 0],
+      },
+      properties: { name: "PH2A-LS-83" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7504800285179, 24.8492512014094, 0],
+      },
+      properties: { name: "PH2A-LS-77" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.748566306069, 24.8487460584293, 0],
+      },
+      properties: { name: "PH2A-LS-73" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7547149027743, 24.8502766110166, 0],
+      },
+      properties: { name: "PH2A-LS-20" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75184096590609, 24.8487922654981, 0],
+      },
+      properties: { name: "PH2A-LS-74" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7549727701204, 24.8486686732499, 0],
+      },
+      properties: { name: "PH2A-LS-93" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7556481512157, 24.848208476024, 0],
+      },
+      properties: { name: "PH2A-LS-89" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.755971971716, 24.8478976249625, 0],
+      },
+      properties: { name: "PH2A-LS-85" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75331410841039, 24.8465378884312, 0],
+      },
+      properties: { name: "PH2A-LS-85" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7533768915555, 24.8494112362023, 0],
+      },
+      properties: { name: "PH2A-LS-94" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7484758088286, 24.8504083847206, 0],
+      },
+      properties: { name: "L-96" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7487839729614, 24.8500566517349, 0],
+      },
+      properties: { name: "L-97" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7483051075007, 24.8481792470576, 0],
+      },
+      properties: { name: "L-97" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7511838512279, 24.84614444588239, 0],
+      },
+      properties: { name: "NC-11" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74040279978249, 24.8474881754579, 0],
+      },
+      properties: { name: "L-98" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7583223041589, 24.850921073146, 0],
+      },
+      properties: { name: "L-92" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.747491286067, 24.8435610377387, 0],
+      },
+      properties: { name: "PH2A-LS-47" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7425679941278, 24.8432579443481, 0],
+      },
+      properties: { name: "PH2A-LS-25" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7503372027717, 24.8450197042079, 0],
+      },
+      properties: { name: "PH2A-LS-64" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.7451738867641, 24.8455867338678, 0],
+      },
+      properties: { name: "PH2A-LS-56" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74676246712541, 24.8444688499103, 0],
+      },
+      properties: { name: "PH2A-LS-50" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.75144204455, 24.8490397605725, 0],
+      },
+      properties: { name: "PH2A-LS-77" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "Point",
+        coordinates: [46.74252910550269, 24.8429790981071, 0],
+      },
+      properties: { name: "PH2A-LS-24" },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
           [46.73474901230969, 24.8406399475593, 0],
           [46.7346820972888, 24.8406648776402, 0],
         ],
@@ -1262,1306 +3269,6 @@ var sedraTwoA = {
     {
       type: "Feature",
       geometry: {
-        type: "Point",
-        coordinates: [46.74267664806139, 24.842956864645, 0],
-      },
-      properties: { name: "PH2A-LS-24" },
-      id: 74,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7468460375767, 24.844416524134, 0],
-      },
-      properties: { name: "PH2A-LS-50" },
-      id: 75,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74525866702099, 24.8457529850137, 0],
-      },
-      properties: { name: "PH2A-LS-56" },
-      id: 76,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7501865504429, 24.8448375992191, 0],
-      },
-      properties: { name: "PH2A-LS-64" },
-      id: 77,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74047191508961, 24.8475267878148, 0],
-      },
-      properties: { name: "L-98" },
-      id: 78,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7513892159886, 24.8462283985102, 0],
-      },
-      properties: { name: "NC-11" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7533467088953, 24.8493456111513, 0],
-      },
-      properties: { name: "PH2A-LS-94" },
-      id: 80,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7531094142835, 24.8463415446618, 0],
-      },
-      properties: { name: "PH2A-LS-85" },
-      id: 86,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7559582979933, 24.8477746773617, 0],
-      },
-      properties: { name: "PH2A-LS-85" },
-      id: 85,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7543814706171, 24.8477302016227, 0],
-      },
-      properties: { name: "PH2A-LS-88" },
-      id: 88,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7557380337754, 24.848255459703, 0],
-      },
-      properties: { name: "PH2A-LS-89" },
-      id: 87,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7519534372749, 24.8488070956022, 0],
-      },
-      properties: { name: "PH2A-LS-74" },
-      id: 88,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7504238720827, 24.8491398475458, 0],
-      },
-      properties: { name: "PH2A-LS-77" },
-      id: 89,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7489125828783, 24.8495143973721, 0],
-      },
-      properties: { name: "PH2A-LS-76" },
-      id: 89,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7524914294247, 24.8466463663609, 0],
-      },
-      properties: { name: "PH2A-LS-83" },
-      id: 95,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75011383410669, 24.8454359495728, 0],
-      },
-      properties: { name: "PH2A-LS-66" },
-      id: 93,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7470775318027, 24.8459996217298, 0],
-      },
-      properties: { name: "PH2A-LS-53" },
-      id: 95,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7474882177627, 24.8440978406745, 0],
-      },
-      properties: { name: "PH2A-LS-49" },
-      id: 95,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7451132202115, 24.8422515567325, 0],
-      },
-      properties: { name: "PH2A-LS-31" },
-      id: 100,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7447341410068, 24.8439798104624, 0],
-      },
-      properties: { name: "PH2A-LS-35" },
-      id: 101,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7440705254217, 24.844959401757, 0.002],
-      },
-      properties: { name: "PH2A-LS-38" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7425210390546, 24.8444296387482, 0],
-      },
-      properties: { name: "PH2A-LS-38" },
-      id: 110,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7429378788569, 24.8420359266568, 0],
-      },
-      properties: { name: "PH2A-LS-19" },
-      id: 97,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7551089248219, 24.8481233385097, 0],
-      },
-      properties: { name: "L-101" },
-      id: 101,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7453492376505, 24.8430161653571, 0],
-      },
-      properties: { name: "L-102" },
-      id: 106,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7461874027874, 24.8485715843132, -610.8],
-      },
-      properties: { name: "L-98" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7501654784505, 24.8486324705935, 0],
-      },
-      properties: { name: "PH2A-LS-75" },
-      id: 103,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.745589661749, 24.8489931152754, 0],
-      },
-      properties: { name: "L-99" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7471799565609, 24.8483545940613, 0],
-      },
-      properties: { name: "L-98" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7567993992516, 24.8520750637364, 0],
-      },
-      properties: { name: "L-93" },
-      id: 118,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7547660375917, 24.8513554373829, 0],
-      },
-      properties: { name: "L-91" },
-      id: 107,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7592386756435, 24.8527422495829, 0],
-      },
-      properties: { name: "L-91" },
-      id: 120,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74892471383221, 24.8468592725662, 0],
-      },
-      properties: { name: "NC-11" },
-      id: 107,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7466426061695, 24.8498010866025, 0],
-      },
-      properties: { name: "L-96" },
-      id: 108,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75092939271121, 24.8500001349552, 0],
-      },
-      properties: { name: "PH2A-LS-79" },
-      id: 108,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74399113983319, 24.8423199028567, 0],
-      },
-      properties: { name: "L-102" },
-      id: 129,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7328719147883, 24.8376473997141, 0],
-      },
-      properties: { name: "CA-03" },
-      id: 135,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7354966094328, 24.8443247851403, 0],
-      },
-      properties: { name: "CA-03" },
-      id: 136,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7366242728875, 24.8449733785269, 0],
-      },
-      properties: { name: "CA-04" },
-      id: 114,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7395283888445, 24.8436943719723, 0],
-      },
-      properties: { name: "CA-04" },
-      id: 115,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.73799927690991, 24.845580308463, 0],
-      },
-      properties: { name: "L-96" },
-      id: 116,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7549343479387, 24.8510281163183, 0],
-      },
-      properties: { name: "MC-01" },
-      id: 115,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7485904291521, 24.84413852650721, 0],
-      },
-      properties: { name: "PH2A-LS-48" },
-      id: 123,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7420085875294, 24.8480954893054, 0],
-      },
-      properties: { name: "L-100" },
-      id: 119,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.73905763647581, 24.84738001454, 0],
-      },
-      properties: { name: "L-96" },
-      id: 121,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7440887501192, 24.8466351687089, 0],
-      },
-      properties: { name: "NC-12" },
-      id: 133,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7536808065372, 24.8503003034525, 0],
-      },
-      properties: { name: "PH2A-LS-96" },
-      id: 120,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7571130461565, 24.8490775524826, 0],
-      },
-      properties: { name: "PH2A-LS-92" },
-      id: 144,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7565659743222, 24.8488488164371, 0],
-      },
-      properties: { name: "PH2A-LS-91" },
-      id: 145,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7562567021907, 24.8485645856887, 0],
-      },
-      properties: { name: "PH2A-LS-90" },
-      id: 146,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7528016211669, 24.84721259574791, 0],
-      },
-      properties: { name: "PH2A-LS-84" },
-      id: 147,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7539762624123, 24.8476264660809, 0.001],
-      },
-      properties: { name: "PH2A-LS-87" },
-      id: 148,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7535280991126, 24.8472160539781, 0],
-      },
-      properties: { name: "PH2A-LS-86" },
-      id: 149,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7525872139974, 24.8460826326691, 0],
-      },
-      properties: { name: "PH2A-LS-82" },
-      id: 150,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75390430675339, 24.8497777967994, 0],
-      },
-      properties: { name: "PH2A-LS-95" },
-      id: 128,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7509537031041, 24.8458832323275, 0],
-      },
-      properties: { name: "PH2A-LS-66" },
-      id: 133,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7443697144932, 24.8419197916634, 0.006],
-      },
-      properties: { name: "PH2A-LS-30" },
-      id: 144,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7464070175844, 24.8454801440742, 0],
-      },
-      properties: { name: "PH2A-LS-54" },
-      id: 144,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.746440030493, 24.845043854476, 0],
-      },
-      properties: { name: "PH2A-LS-52" },
-      id: 150,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.745525766633, 24.8453056314877, 0],
-      },
-      properties: { name: "PH2A-LS-55" },
-      id: 146,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74486649380221, 24.8450344691805, 0],
-      },
-      properties: { name: "PH2A-LS-37" },
-      id: 151,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7454949327075, 24.8440214225951, 0],
-      },
-      properties: { name: "PH2A-LS-31" },
-      id: 149,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7442944569969, 24.8446247159535, 0],
-      },
-      properties: { name: "PH2A-LS-36" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7425821903538, 24.8417875089546, 0],
-      },
-      properties: { name: "PH2A-LS-21" },
-      id: 141,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7417970153621, 24.8424645476177, 0],
-      },
-      properties: { name: "PH2A-LS-24" },
-      id: 142,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7408391417324, 24.842163122069, 0],
-      },
-      properties: { name: "PH2A-LS-23" },
-      id: 142,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7527556458271, 24.8511255182572, 0],
-      },
-      properties: { name: "L-107" },
-      id: 140,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7532539246267, 24.8513107660212, 0],
-      },
-      properties: { name: "L-108" },
-      id: 141,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7463567553335, 24.8429609571529, 0],
-      },
-      properties: { name: "NC-12" },
-      id: 157,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7529309192973, 24.8518870487219, 0],
-      },
-      properties: { name: "NC-10" },
-      id: 143,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7434840298807, 24.8489001772232, 0],
-      },
-      properties: { name: "L-96" },
-      id: 145,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7461353706527, 24.8443131315206, 0],
-      },
-      properties: { name: "PH2A-LS-51" },
-      id: 164,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.742526167128, 24.8426291807681, 0],
-      },
-      properties: { name: "PH2A-LS-22" },
-      id: 150,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74329420624261, 24.8445542167675, 0.002],
-      },
-      properties: { name: "PH2A-LS-38" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7440416749042, 24.8430133941225, 0],
-      },
-      properties: { name: "PH2A-LS-34" },
-      id: 165,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.743614692781, 24.8440907244651, 0],
-      },
-      properties: { name: "PH2A-LS-36" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7520983409881, 24.84936759658961, 0],
-      },
-      properties: { name: "PH2A-LS-78" },
-      id: 157,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75087422712569, 24.8504119807406, 0],
-      },
-      properties: { name: "PH2A-LS-81" },
-      id: 151,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7540816146735, 24.8468202391069, 0],
-      },
-      properties: { name: "PH2A-LS-85" },
-      id: 192,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7423145068783, 24.8421015975354, 0],
-      },
-      properties: { name: "L-110" },
-      id: 157,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.752600176445, 24.8475445970638, 0],
-      },
-      properties: { name: "PH2A-LS-93" },
-      id: 184,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74158321419121, 24.8399725285508, 0],
-      },
-      properties: { name: "RA-2A-02" },
-      id: 172,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7467019678078, 24.842553745608, 0],
-      },
-      properties: { name: "RA-2A-03" },
-      id: 199,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7517806056613, 24.8451032033972, 0],
-      },
-      properties: { name: "RA-2A-04" },
-      id: 163,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74884193463321, 24.8505908056726, 0],
-      },
-      properties: { name: "RA-2A-05" },
-      id: 158,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74799102735669, 24.8472135335923, 0],
-      },
-      properties: { name: "RA-2A-06" },
-      id: 165,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7440975343747, 24.8468871182077, 0],
-      },
-      properties: { name: "RA-2A-01" },
-      id: 177,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74232783503821, 24.8406248638799, 0],
-      },
-      properties: { name: "CA-22" },
-      id: 167,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74746565907179, 24.8432661644849, 0],
-      },
-      properties: { name: "CA-22" },
-      id: 174,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7332388858409, 24.8361271482248, 0],
-      },
-      properties: { name: "CA-22" },
-      id: 212,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7509238963586, 24.8450464375844, 0],
-      },
-      properties: { name: "CA-22" },
-      id: 171,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7532632747896, 24.84623262878801, 0],
-      },
-      properties: { name: "CA-22" },
-      id: 178,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7572363119781, 24.8482477345905, 0],
-      },
-      properties: { name: "CA-22" },
-      id: 177,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7597804849657, 24.8495652365993, 0],
-      },
-      properties: { name: "CA-22" },
-      id: 179,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7429258100087, 24.8439875709428, 0],
-      },
-      properties: { name: "PH2A-LS-33" },
-      id: 213,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7395753348711, 24.8477524109029, 0],
-      },
-      properties: { name: "L-96" },
-      id: 170,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7555268585272, 24.849681671089, 0],
-      },
-      properties: { name: "PH2A-LS-20" },
-      id: 170,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7577343537428, 24.8498616497551, 0],
-      },
-      properties: { name: "MC-01" },
-      id: 182,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7502234155956, 24.851156830733, 0],
-      },
-      properties: { name: "NC-10" },
-      id: 172,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7566719598808, 24.8496418377503, 0],
-      },
-      properties: { name: "PH2A-LS-93" },
-      id: 187,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7578841429434, 24.8496083776114, 0],
-      },
-      properties: { name: "PH2A-LS-97" },
-      id: 188,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7457214887263, 24.8486347400703, 0],
-      },
-      properties: { name: "L-99" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74270371957159, 24.8434247448722, 0.008],
-      },
-      properties: { name: "PH2A-LS-25" },
-      id: 243,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75273537425569, 24.8492249651008, 0],
-      },
-      properties: { name: "L-107" },
-      id: 177,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7500249363796, 24.8482781691944, 0],
-      },
-      properties: { name: "PH2A-LS-73" },
-      id: 193,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74889636061181, 24.8500290847189, 0],
-      },
-      properties: { name: "PH2A-LS-78" },
-      id: 181,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7429122716961, 24.8413157684801, 0],
-      },
-      properties: { name: "PH2A-LS-18" },
-      id: 191,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74669621042019, 24.8434253674697, -613],
-      },
-      properties: { name: "PH2A-LS-47" },
-      id: 204,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7494924356615, 24.8451239184313, 0],
-      },
-      properties: { name: "PH2A-LS-64" },
-      id: 203,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75091999418549, 24.8458449246504, 0],
-      },
-      properties: { name: "PH2A-LS-64" },
-      id: 196,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7582886507837, 24.8487816159366, 0],
-      },
-      properties: { name: "PH2A-LS-98" },
-      id: 201,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75115494243251, 24.84584478505611, 0],
-      },
-      properties: { name: "NC-11" },
-      id: 198,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7544497486232, 24.8484877516009, 0],
-      },
-      properties: { name: "PH2A-LS-93" },
-      id: 256,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7578812573709, 24.8504807000504, 0],
-      },
-      properties: { name: "L-92" },
-      id: 263,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7534381182034, 24.8504978559233, 0],
-      },
-      properties: { name: "PH2A-LS-20" },
-      id: 188,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75231843716381, 24.8499271412736, 0],
-      },
-      properties: { name: "PH2A-LS-81" },
-      id: 206,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7487192932811, 24.8503564643934, 0],
-      },
-      properties: { name: "L-97" },
-      id: 192,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7481915342978, 24.8474789567728, 0],
-      },
-      properties: { name: "L-97" },
-      id: 206,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7452884830871, 24.8484474471088, 0],
-      },
-      properties: { name: "L-98" },
-      id: 198,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7370539577686, 24.8474914823753, 0],
-      },
-      properties: { name: "L-109" },
-      id: 205,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7370218431265, 24.8483147151283, 0],
-      },
-      properties: { name: "ABU JARFAN CHANNEL" },
-      id: 205,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74776497720709, 24.8510748202922, 0],
-      },
-      properties: { name: "ABU JARFAN CHANNEL" },
-      id: 207,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7587532663252, 24.849797142206, 0],
-      },
-      properties: { name: "MC-01" },
-      id: 218,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7534240902739, 24.8531142066975, 0],
-      },
-      properties: { name: "MC-01" },
-      id: 279,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.736489894376, 24.8483052657201, 0],
-      },
-      properties: { name: "CA-03" },
-      id: 210,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7350499015829, 24.8409047587931, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-      id: 289,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7409767030951, 24.8402420124693, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-      id: 214,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7406682858611, 24.8458687698081, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-      id: 212,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74239646698181, 24.8472440160601, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-      id: 213,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7445426567269, 24.8473884287409, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7465881149847, 24.8479060029519, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7473733919156, 24.847720123535, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74911899447969, 24.8473217843412, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-      id: 225,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7510802537897, 24.8466935170941, 0],
-      },
-      properties: { name: "NATURAL WADI" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7524673592101, 24.8507346992885, 0],
-      },
-      properties: { name: "(79)" },
-      id: 208,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75103016008909, 24.8508805553398, 0],
-      },
-      properties: { name: "(41)" },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7478998564084, 24.8499223975477, 0],
-      },
-      properties: { name: "(32)" },
-      id: 263,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75025347272521, 24.8465911050235, 0],
-      },
-      properties: { name: "(10)" },
-      id: 230,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7490351865414, 24.8452015786149, 0],
-      },
-      properties: { name: "(09)" },
-      id: 240,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7495240368421, 24.8444467224474, 0],
-      },
-      properties: { name: "(19)" },
-      id: 213,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.74396439854171, 24.842208905574, 0],
-      },
-      properties: { name: "(54)" },
-      id: 300,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7381029123194, 24.8440751343087, 0],
-      },
-      properties: { name: "(28)" },
-      id: 230,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75252413122959, 24.8489848747348, 0],
-      },
-      properties: { name: "(41)" },
-      id: 238,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7577275489972, 24.8520000617448, 0],
-      },
-      properties: { name: "L-112" },
-      id: 298,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.75911036624241, 24.8515734083282, 0],
-      },
-      properties: { name: "PH-2A-LS-32" },
-      id: 300,
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "Point",
-        coordinates: [46.7420247782058, 24.8396101803559, 0],
-      },
-      properties: { name: "CA-04" },
-      id: 260,
-    },
-    {
-      type: "Feature",
-      geometry: {
         type: "LineString",
         coordinates: [
           [46.75929602839111, 24.848538636043, 0],
@@ -2849,15 +3556,15 @@ var sedraTwoA = {
         type: "LineString",
         coordinates: [
           [46.7419991655312, 24.84013705672171, 0],
-          [46.7419788024191, 24.8401255441451, 0],
-          [46.7419596344519, 24.8401124338341, 0],
-          [46.7419418117472, 24.8400978284647, 0],
-          [46.7419254738866, 24.8400818424217, 0],
-          [46.74191074882279, 24.840064600903, 0],
-          [46.7418977518775, 24.840046238939, 0],
-          [46.7418865848379, 24.8400269003348, 0],
-          [46.7418773351599, 24.8400067365446, 0],
-          [46.74187007528341, 24.8399859054846, 0],
+          [46.7419788021666, 24.8401255439934, 0],
+          [46.74195963398041, 24.8401124334893, 0],
+          [46.741941811096, 24.8400978278898, 0],
+          [46.7419254731003, 24.8400818415848, 0],
+          [46.7419107479507, 24.8400645997776, 0],
+          [46.7418977509726, 24.8400462375046, 0],
+          [46.74188658395641, 24.8400268985775, 0],
+          [46.7418773343604, 24.840006734457, 0],
+          [46.7418700746256, 24.83998590306649, 0],
         ],
       },
       properties: {
@@ -2938,42 +3645,22 @@ var sedraTwoA = {
     {
       type: "Feature",
       geometry: {
-        type: "GeometryCollection",
-        geometries: [
-          {
-            type: "LineString",
-            coordinates: [
-              [46.74187848585401, 24.8400455137129, 0],
-              [46.7418624718253, 24.8401350636332, 0],
-              [46.74181385946599, 24.8402142150395, 0],
-              [46.7417385121032, 24.8402734210788, 0],
-              [46.7416455177474, 24.8403055405969, 0],
-              [46.7415460929412, 24.8403066994817, 0],
-              [46.741452229855, 24.84027675795, 0],
-              [46.741375249821, 24.8402193274096, 0],
-              [46.7413244377858, 24.840141334862, 0],
-              [46.7413059224005, 24.8400521873895, 0],
-            ],
-          },
-          {
-            type: "LineString",
-            coordinates: [
-              [46.7413059223915, 24.8400521873805, 0],
-              [46.7413219368202, 24.8399626374997, 0],
-              [46.7413705494173, 24.8398834862412, 0],
-              [46.7414458967453, 24.8398242803899, 0],
-              [46.7415388908111, 24.8397921610131, 0],
-              [46.7416383152087, 24.8397910021575, 0],
-              [46.7417321779597, 24.8398209435936, 0],
-              [46.7418091578898, 24.8398783739594, 0],
-              [46.74185997010189, 24.839956366336, 0],
-              [46.741878485863, 24.8400455137219, 0],
-            ],
-          },
+        type: "LineString",
+        coordinates: [
+          [46.7414884213632, 24.8398053603948, 0],
+          [46.7415403197856, 24.8397919173002, 0],
+          [46.7415940604236, 24.8397875969801, 0],
+          [46.7416477351504, 24.8397925528322, 0],
+          [46.7416994381799, 24.8398066088923, 0],
+          [46.74174733373259, 24.83982926608221, 0],
+          [46.74178972121581, 24.8398597199301, 0],
+          [46.7418250956047, 24.8398968891336, 0],
+          [46.7418522008803, 24.8399394539524, 0],
+          [46.7418700746256, 24.8399859030667, 0],
         ],
       },
       properties: {
-        name: "Circle [77D9]:0",
+        name: "Arc [77D9]:0",
         "stroke-opacity": 1,
         stroke: "#00fefe",
         "stroke-width": 1,
@@ -2982,42 +3669,22 @@ var sedraTwoA = {
     {
       type: "Feature",
       geometry: {
-        type: "GeometryCollection",
-        geometries: [
-          {
-            type: "LineString",
-            coordinates: [
-              [46.7470138964953, 24.8426695187333, 0],
-              [46.7469979630686, 24.8427586378576, 0],
-              [46.7469495872008, 24.8428374097107, 0],
-              [46.74687460369499, 24.8428963332195, 0],
-              [46.74678205667519, 24.8429283013074, 0],
-              [46.7466831087281, 24.8429294581275, 0],
-              [46.7465896945071, 24.8428996641454, 0],
-              [46.7465130812042, 24.8428425129722, 0],
-              [46.7464625095326, 24.8427648979131, 0],
-              [46.74644407915251, 24.8426761805198, 0],
-            ],
-          },
-          {
-            type: "LineString",
-            coordinates: [
-              [46.74644407914351, 24.8426761805108, 0],
-              [46.74646001296641, 24.8425870614255, 0],
-              [46.7465083890698, 24.8425082897189, 0],
-              [46.7465833725413, 24.8424493663963, 0],
-              [46.7466759192739, 24.8424173984483, 0],
-              [46.7467748668163, 24.8424162416573, 0],
-              [46.7468682807052, 24.8424460355448, 0],
-              [46.74694489390511, 24.8425031865452, 0],
-              [46.74699546575179, 24.8425808014348, 0],
-              [46.7470138965043, 24.8426695187424, 0],
-            ],
-          },
+        type: "LineString",
+        coordinates: [
+          [46.746465770778, 24.8427746662688, 0],
+          [46.74646379234889, 24.8427694284932, 0],
+          [46.746461851657, 24.8427641789751, 0],
+          [46.7464599487858, 24.84275891794089, 0],
+          [46.74645808381759, 24.8427536456175, 0],
+          [46.7464562568326, 24.8427483622322, 0],
+          [46.7464544679098, 24.842743068013, 0],
+          [46.7464527171261, 24.8427377631881, 0],
+          [46.7464510045572, 24.8427324479863, 0],
+          [46.7464493302769, 24.8427271226367, 0],
         ],
       },
       properties: {
-        name: "Circle [77D8]:0",
+        name: "Arc [77D8]:0",
         "stroke-opacity": 1,
         stroke: "#00fefe",
         "stroke-width": 1,
@@ -4520,6 +5187,22 @@ var sedraTwoA = {
       geometry: {
         type: "LineString",
         coordinates: [
+          [46.7531998026674, 24.8465145481073, 0],
+          [46.7536262976331, 24.8467323601701, 0],
+        ],
+      },
+      properties: {
+        name: "Line [778E]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "LineString",
+        coordinates: [
           [46.753153481016, 24.8465264802858, 0],
           [46.7531568186728, 24.8465220049007, 0],
           [46.7531609573118, 24.8465181263558, 0],
@@ -5162,7 +5845,6 @@ var sedraTwoA = {
         stroke: "#00fefe",
         "stroke-width": 1,
       },
-      id: 386,
     },
     {
       type: "Feature",
@@ -5953,7 +6635,7 @@ var sedraTwoA = {
       geometry: {
         type: "LineString",
         coordinates: [
-          [46.7425464079699, 24.8422851147725, 0],
+          [46.7425761713504, 24.8422796263277, 0],
           [46.7424942306494, 24.8422812231449, 0],
         ],
       },
@@ -6001,56 +6683,8 @@ var sedraTwoA = {
       geometry: {
         type: "LineString",
         coordinates: [
-          [46.742606558271, 24.8423753307785, 0],
-          [46.74261520564, 24.8423797480042, 0],
-        ],
-      },
-      properties: {
-        name: "Line [7743]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
-          [46.74254252228721, 24.842479706254, 0],
-          [46.742606558272, 24.8423753307795, 0],
-        ],
-      },
-      properties: {
-        name: "Line [7742]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
-          [46.7424734594314, 24.8424444276809, 0],
-          [46.7425425222882, 24.842479706255, 0],
-        ],
-      },
-      properties: {
-        name: "Line [7741]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
           [46.742504345505, 24.842394084985, 0],
-          [46.7424734594324, 24.8424444276819, 0],
+          [46.7424698530315, 24.8424529315871, 0],
         ],
       },
       properties: {
@@ -6539,7 +7173,6 @@ var sedraTwoA = {
         stroke: "#00fefe",
         "stroke-width": 1,
       },
-      id: 512,
     },
     {
       type: "Feature",
@@ -6928,22 +7561,6 @@ var sedraTwoA = {
       },
       properties: {
         name: "Line [7710]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
-          [46.74257824678829, 24.8423013786188, 0],
-          [46.7425464079709, 24.8422851147735, 0],
-        ],
-      },
-      properties: {
-        name: "Polyline [770F]:0",
         "stroke-opacity": 1,
         stroke: "#00fefe",
         "stroke-width": 1,
@@ -8666,7 +9283,7 @@ var sedraTwoA = {
       geometry: {
         type: "LineString",
         coordinates: [
-          [46.7575418975428, 24.8500147991862, 0],
+          [46.7575875579246, 24.8500381156531, 0],
           [46.75472880239511, 24.8485782474547, 0],
         ],
       },
@@ -8676,7 +9293,6 @@ var sedraTwoA = {
         stroke: "#00fefe",
         "stroke-width": 1,
       },
-      id: 612,
     },
     {
       type: "Feature",
@@ -9209,7 +9825,6 @@ var sedraTwoA = {
         stroke: "#00fefe",
         "stroke-width": 1,
       },
-      id: 573,
     },
     {
       type: "Feature",
@@ -10105,6 +10720,57 @@ var sedraTwoA = {
       },
       properties: {
         name: "Polyline [7690]:0",
+        "stroke-opacity": 1,
+        stroke: "#00fefe",
+        "stroke-width": 1,
+      },
+    },
+    {
+      type: "Feature",
+      geometry: {
+        type: "GeometryCollection",
+        geometries: [
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7515785432893, 24.8480748151812, 0],
+              [46.7488583628166, 24.8486618585588, 0],
+            ],
+          },
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7516040807166, 24.8480384911194, 0],
+              [46.75160473177429, 24.848043752523, 0],
+              [46.7516043938428, 24.8480490383719, 0],
+              [46.75160307674539, 24.8480541950136, 0],
+              [46.75160081876831, 24.8480590725511, 0],
+              [46.75159768554781, 24.8480635292007, 0],
+              [46.7515937681627, 24.8480674354134, 0],
+              [46.7515891804862, 24.8480706776407, 0],
+              [46.7515840558761, 24.8480731616351, 0],
+              [46.7515785432983, 24.8480748151902, 0],
+            ],
+          },
+          {
+            type: "LineString",
+            coordinates: [
+              [46.7488583628156, 24.8486618585578, 0],
+              [46.7488524923338, 24.8486626405921, 0],
+              [46.74884656221019, 24.8486624805888, 0],
+              [46.74884075262869, 24.8486613834096, 0],
+              [46.7488352401103, 24.8486593823918, 0],
+              [46.74883019215031, 24.8486565383353, 0],
+              [46.748825762128, 24.8486529376552, 0],
+              [46.7488220846476, 24.8486486897564, 0],
+              [46.7488192714472, 24.8486439237092, 0],
+              [46.74881740800441, 24.8486387843273, 0],
+            ],
+          },
+        ],
+      },
+      properties: {
+        name: "Polyline [768F]:0",
         "stroke-opacity": 1,
         stroke: "#00fefe",
         "stroke-width": 1,
@@ -11082,22 +11748,6 @@ var sedraTwoA = {
       geometry: {
         type: "LineString",
         coordinates: [
-          [46.74618184600299, 24.8497246726327, 0],
-          [46.74611326294019, 24.8497048919186, 0],
-        ],
-      },
-      properties: {
-        name: "Polyline [7679]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
           [46.7459436218094, 24.8496559638876, 0],
           [46.7454154981222, 24.8495036405248, 0],
         ],
@@ -11162,23 +11812,7 @@ var sedraTwoA = {
       geometry: {
         type: "LineString",
         coordinates: [
-          [46.7433194361855, 24.8488990641675, 0],
-          [46.74256240815969, 24.8486807024071, 0],
-        ],
-      },
-      properties: {
-        name: "Line [7674]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
-          [46.7423925840409, 24.848631716662, 0],
+          [46.7433194361855, 24.8488990641676, 0],
           [46.7418644426231, 24.8484793728325, 0],
         ],
       },
@@ -14094,7 +14728,7 @@ var sedraTwoA = {
         type: "LineString",
         coordinates: [
           [46.7343141660584, 24.8364510078667, 0],
-          [46.7412237671394, 24.8399809853197, 0],
+          [46.7382684914089, 24.8384712594192, 0],
         ],
       },
       properties: {
@@ -18034,22 +18668,6 @@ var sedraTwoA = {
       },
       properties: {
         name: "Line [74ED]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
-          [46.7464493302678, 24.8427271226277, 0],
-          [46.746465770779, 24.8427746662698, 0],
-        ],
-      },
-      properties: {
-        name: "Line [74EC]:0",
         "stroke-opacity": 1,
         stroke: "#00fefe",
         "stroke-width": 1,
@@ -28173,7 +28791,6 @@ var sedraTwoA = {
         stroke: "#00fefe",
         "stroke-width": 1,
       },
-      id: 1494,
     },
     {
       type: "Feature",
@@ -28525,22 +29142,6 @@ var sedraTwoA = {
         "stroke-opacity": 1,
         stroke: "#00fefe",
         "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
-          [46.7426041453487, 24.8423146080468, 0],
-          [46.7425782467968, 24.8423013786076, 0],
-        ],
-      },
-      properties: {
-        name: "Polyline [732E]:0",
-        "stroke-opacity": 1,
-        stroke: "#fefe00",
-        "stroke-width": 20,
       },
     },
     {
@@ -29620,22 +30221,6 @@ var sedraTwoA = {
       },
       properties: {
         name: "Polyline [7319]:0",
-        "stroke-opacity": 1,
-        stroke: "#00fefe",
-        "stroke-width": 1,
-      },
-    },
-    {
-      type: "Feature",
-      geometry: {
-        type: "LineString",
-        coordinates: [
-          [46.7426429934056, 24.8423344523253, 0],
-          [46.74260414534219, 24.84231460806, 0],
-        ],
-      },
-      properties: {
-        name: "Polyline [7318]:0",
         "stroke-opacity": 1,
         stroke: "#00fefe",
         "stroke-width": 1,

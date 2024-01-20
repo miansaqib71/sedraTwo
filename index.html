@@ -92,7 +92,7 @@
 <script src="https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js"></script>
 
 <script src="./data/sedraProject.js"></script>
-<script src="./data/sedra2A.js"></script>
+<script src="./data/sedratworoadcenterinline.js"></script>
 <script src="./data/Sedra2AStation.js"></script>
 <script src="./data/sedraTwoALevel.js"></script>
 <script src="./data/SedraTwoStationAndLevel.js"></script>
@@ -157,7 +157,7 @@
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-    /////
+    ///// my location  -----------------------
     map.locate({ setView: true, maxZoom: 16 });
     function onLocationFound(e) {
         var radius = e.accuracy;
