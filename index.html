@@ -92,14 +92,16 @@
 <script src="https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js"></script>
 
 <script src="./data/sedraProject.js"></script>
-<script src="./data/sedratworoadcenterinline.js"></script>
+<script src="./data/sedraTwoARoad.js"></script>
 <script src="./data/Sedra2AStation.js"></script>
-<script src="./data/sedraTwoALevel.js"></script>
-<script src="./data/SedraTwoStationAndLevel.js"></script>
-<script src="./data/sedraTwoB.js"></script>
-<script src="./data/sedraTwoBStation.js"></script>
+<!-- <script src="./data/sedratwoAlevel.js"></script> -->
+<script src="./data/sedratwoAstation.geojson"></script>
+<!-- <script src="./data/SedraTwoStationAndLevel.js"></script> -->
+<!-- <script src="./data/sedraTwoB.js"></script> -->
+<script src="./data/sedraTwoBRoad.js"></script>
 <script src="./data/sedraTwoBLevel.js"></script>
-<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<script src="./data/sedraTwoBStation.js"></script>
+]<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 <script>
 
     /*===================================================
@@ -164,7 +166,7 @@
 
         L.marker(e.latlng).addTo(map)
             .bindPopup("I am Here").openPopup();
-            // .bindPopup("You are within " + radius + " meters from this point").openPopup();
+        // .bindPopup("You are within " + radius + " meters from this point").openPopup();
 
         L.circle(e.latlng, radius).addTo(map);
     }
@@ -203,7 +205,7 @@
                 color: '#000',
                 weight: 1,
                 opacity: 1,
-                fillOpacity: 0.1
+                fillOpacity: 0.8
             };
 
             // Create a marker with text label
@@ -235,7 +237,7 @@
     }).addTo(map);
 
     // sedra two a level station data show
-    // var sedraTwoALevel = L.geoJSON(sedraTwoALevel, {
+    // var SedraTwoALevel = L.geoJSON(sedraTwoALevel, {
     //     pointToLayer: (feature, latlng) => {
     //         // Customize the marker as needed
     //         var markerOptions = {
@@ -326,11 +328,12 @@
     // }).addTo(map);
 
 
-    // var StationAndLevel = L.geoJSON(stationAndLevel, {
-    //     onEachFeature: function (feature, layer) {
-    //         layer.bindPopup('<b>Road name </b>' + feature.properties.name)
-    //     },
-    // }).addTo(map);
+    // var StationAndLevel = L.geoJSON(sedraTwoStationAndLevel
+    //     , {
+    //         onEachFeature: function (feature, layer) {
+    //             layer.bindPopup('<b>Road name </b>' + feature.properties.name)
+    //         },
+    //     }).addTo(map);
 
     /*===================================================
                           LAYER CONTROL               
@@ -350,11 +353,11 @@
         "Sedra Project": sedraProject,
         "2A Roads Name": SedraTwoA,
         "Sedra 2A Station": SedraTwoAStation,
+        // "Sedra 2A Level": SedraTwoALevel,
         "2B Roads Name": sedraTwoB,
         "Sedra 2B Station": sedraTwoBStation,
-        // "Sedra 2B Level": sedraTwoBlevel,
+        // "Sedra 2 Station & Level": StationAndLevel,
 
-        // "Sedra 2A Level": sedraTwoALevel,
 
 
 
