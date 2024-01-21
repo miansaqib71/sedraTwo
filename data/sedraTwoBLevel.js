@@ -1,4 +1,4 @@
-var sedraTwoBlevel = {
+var SedraTwoBLevel = {
   type: "FeatureCollection",
   features: [
     {

@@ -54,6 +54,16 @@
             background-color: chocolate;
         }
 
+
+
+        .text-label {
+            /* color: rgb(21, 20, 19); */
+            color: white;
+            background-color: rgb(199, 197, 195);
+            opacity: 1;
+            fill-opacity: 0.9;
+        }
+
         @-ms-viewport {
             width: 100vw;
             min-zoom: 100%;
@@ -92,16 +102,16 @@
 <script src="https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js"></script>
 
 <script src="./data/sedraProject.js"></script>
+
 <script src="./data/sedraTwoARoad.js"></script>
 <script src="./data/Sedra2AStation.js"></script>
-<!-- <script src="./data/sedratwoAlevel.js"></script> -->
-<script src="./data/sedratwoAstation.geojson"></script>
-<!-- <script src="./data/SedraTwoStationAndLevel.js"></script> -->
-<!-- <script src="./data/sedraTwoB.js"></script> -->
+
 <script src="./data/sedraTwoBRoad.js"></script>
-<script src="./data/sedraTwoBLevel.js"></script>
 <script src="./data/sedraTwoBStation.js"></script>
-]<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<!-- <script src="./data/SedraTwoBLevel.js"></script> -->
+<script src="./data/TwoB_RoadStation_Level.js"></script>
+]
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 <script>
 
     /*===================================================
@@ -189,7 +199,7 @@
         },
         style: {
             fillColor: '#961b0b',
-            fillOpacity: 0.1,
+            // fillOpacity: 0.9,
             color: 'green'
         }
     }).addTo(map);
@@ -201,9 +211,9 @@
         pointToLayer: (feature, latlng) => {
             // Customize the marker as needed
             var markerOptions = {
-                radius: 8,
+                radius: 5,
                 color: '#000',
-                weight: 1,
+                weight: 5,
                 opacity: 1,
                 fillOpacity: 0.8
             };
@@ -220,12 +230,12 @@
         pointToLayer: (feature, latlng) => {
             // Customize the marker as needed
             var markerOptions = {
-                radius: 8,
+                radius: 10,
                 color: '#000',
                 opacity: 0.5,
-                weight: 1,
+                weight: 5,
                 opacity: 1,
-                fillOpacity: 0.1
+                fillOpacity: 0.9
             };
 
             // Create a marker with text label
@@ -236,26 +246,7 @@
         }
     }).addTo(map);
 
-    // sedra two a level station data show
-    // var SedraTwoALevel = L.geoJSON(sedraTwoALevel, {
-    //     pointToLayer: (feature, latlng) => {
-    //         // Customize the marker as needed
-    //         var markerOptions = {
-    //             radius: 8,
-    //             color: '#000',
-    //             opacity: 0.5,
-    //             weight: 1,
-    //             opacity: 1,
-    //           fillOpacity: 0.1
-    //         };
 
-    //         // Create a marker with text label
-    //         var marker = L.circleMarker(latlng, markerOptions)
-    //             .bindTooltip(feature.properties.name, { permanent: true, direction: 'center', className: 'text-label' });
-
-    //         return marker;
-    //     }
-    // }).addTo(map);
 
     // Sedra Two B Data Show
     // var sedraTwoB = L.geoJSON(sedraTwoB, {
@@ -269,11 +260,11 @@
         pointToLayer: (feature, latlng) => {
             // Customize the marker as needed
             var markerOptions = {
-                radius: 8,
+                radius: 5,
                 color: '#000',
-                weight: 1,
+                weight: 5,
                 opacity: 1,
-                fillOpacity: 0.1
+                fillOpacity: 0.9
             };
 
             // Create a marker with text label
@@ -291,12 +282,12 @@
         pointToLayer: (feature, latlng) => {
             // Customize the marker as needed
             var markerOptions = {
-                radius: 8,
+                radius: 5,
                 color: '#000',
                 opacity: 0.5,
-                weight: 1,
+                weight: 5,
                 opacity: 1,
-                fillOpacity: 0.1
+                fillOpacity: 0.9
             };
 
             // Create a marker with text label
@@ -306,17 +297,17 @@
             return marker;
         }
     }).addTo(map);
-    // Sedra Two A Level Data Show
-    //  var sedraTwoBlevel = L.geoJSON(sedraTwoBlevel, {
+    // Sedra Two B Level Data Show
+    //  var TwoBStationLevel = L.geoJSON(TwoBStationLevel, {
     //     pointToLayer: (feature, latlng) => {
     //         // Customize the marker as needed
     //         var markerOptions = {
-    //             radius: 8,
+    //             radius: 5,
     //             color: '#000',
     //             opacity: 0.5,
-    //             weight: 1,
+    //             weight: 5,
     //             opacity: 1,
-    //           fillOpacity: 0.1
+    //           fillOpacity: 0.9
     //         };
 
     //         // Create a marker with text label
@@ -327,13 +318,6 @@
     //     }
     // }).addTo(map);
 
-
-    // var StationAndLevel = L.geoJSON(sedraTwoStationAndLevel
-    //     , {
-    //         onEachFeature: function (feature, layer) {
-    //             layer.bindPopup('<b>Road name </b>' + feature.properties.name)
-    //         },
-    //     }).addTo(map);
 
     /*===================================================
                           LAYER CONTROL               
@@ -351,12 +335,15 @@
         // "Sedra2B": sedra2B,
         // "Sedra2A": singleMarker,
         "Sedra Project": sedraProject,
+
         "2A Roads Name": SedraTwoA,
         "Sedra 2A Station": SedraTwoAStation,
         // "Sedra 2A Level": SedraTwoALevel,
+
         "2B Roads Name": sedraTwoB,
-        "Sedra 2B Station": sedraTwoBStation,
-        // "Sedra 2 Station & Level": StationAndLevel,
+        // "Sedra 2B Station": sedraTwoBStation,
+        "TwoBStationLevel": TwoBStationLevel,
+
 
 
 
