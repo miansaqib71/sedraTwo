@@ -108,7 +108,7 @@
 
 <script src="./data/sedraTwoBRoad.js"></script>
 <script src="./data/sedraTwoBStation.js"></script>
-<!-- <script src="./data/SedraTwoBLevel.js"></script> -->
+<script src="./data/SedraTwoBLevel.js"></script>
 <script src="./data/TwoB_RoadStation_Level.js"></script>
 ]
 <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
@@ -168,26 +168,43 @@
     var tile_layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
-
+    
     ///// my location  -----------------------
+    // map.locate({ setView: true, maxZoom: 16 });
+    // function onLocationFound(e) {
+    //     var radius = e.accuracy;
+    //     L.marker(e.latlng).addTo(map)
+    //         .bindPopup("I am Here").openPopup();
+    //     // .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+    //     L.circle(e.latlng, radius).addTo(map);
+    // }
+    // map.on('locationfound', onLocationFound);
+    // function onLocationError(e) {
+    //     alert(e.message);
+    // }
+    // map.on('locationerror', onLocationError);
+ // Your existing location code
     map.locate({ setView: true, maxZoom: 16 });
     function onLocationFound(e) {
-        var radius = e.accuracy;
+      var radius = e.accuracy;
 
-        L.marker(e.latlng).addTo(map)
-            .bindPopup("I am Here").openPopup();
-        // .bindPopup("You are within " + radius + " meters from this point").openPopup();
+      L.marker(e.latlng).addTo(map)
+          .bindTooltip("I am Here");
 
-        L.circle(e.latlng, radius).addTo(map);
+      L.circle(e.latlng, radius).addTo(map);
     }
-
     map.on('locationfound', onLocationFound);
-    function onLocationError(e) {
-        alert(e.message);
-    }
 
+    function onLocationError(e) {
+      alert(e.message);
+    }
     map.on('locationerror', onLocationError);
 
+    // Refresh location every 30 seconds
+    setInterval(function() {
+      map.locate({ setView: true, maxZoom: 16 });
+    }, 30000);
     /*===================================================
                           GEOJSON               
     ===================================================*/
@@ -215,7 +232,7 @@
                 color: '#000',
                 weight: 5,
                 opacity: 1,
-                fillOpacity: 0.8
+                fillOpacity: 0.9
             };
 
             // Create a marker with text label
@@ -225,7 +242,7 @@
             return marker;
         }
     }).addTo(map);
-    // // Sedra Two A Station Data Show
+    // Sedra Two A Station Data Show
     var SedraTwoAStation = L.geoJSON(SedraTwoAStation, {
         pointToLayer: (feature, latlng) => {
             // Customize the marker as needed
@@ -245,8 +262,6 @@
             return marker;
         }
     }).addTo(map);
-
-
 
     // Sedra Two B Data Show
     // var sedraTwoB = L.geoJSON(sedraTwoB, {
@@ -297,6 +312,10 @@
             return marker;
         }
     }).addTo(map);
+
+
+
+    // Replace the existing pointToLayer with the new function
     // Sedra Two B Level Data Show
     //  var TwoBStationLevel = L.geoJSON(TwoBStationLevel, {
     //     pointToLayer: (feature, latlng) => {
@@ -318,7 +337,12 @@
     //     }
     // }).addTo(map);
 
-
+    //   var TwoBStationLevel = L.geoJSON(TwoBStationLevel, {
+    //     pointToLayer: function (feature, L) {
+    //             // layer.bindPopup(feature.properties.name).openPopup();
+    //             L.bindPopup('<b>This is Station/Level </b>' + feature.properties.name)
+    //         },
+    //     }).addTo(map);
     /*===================================================
                           LAYER CONTROL               
     ===================================================*/
@@ -342,12 +366,6 @@
 
         "2B Roads Name": sedraTwoB,
         "Sedra 2B Station": sedraTwoBStation,
-        // "TwoBStationLevel": TwoBStationLevel,
-
-
-
-
-
     };
 
     L.control.layers(baseLayers, overlays).addTo(map);
