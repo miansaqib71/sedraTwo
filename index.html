@@ -185,9 +185,9 @@
     }
     map.on('locationerror', onLocationError);
      // Refresh location every 30 seconds
-    //  setInterval(function() {
-    //   map.locate({ setView: true, maxZoom: 16 });
-    // }, 30000);
+     setInterval(function() {
+      map.locate({ setView: true, maxZoom: 16 });
+    }, 30000);
 
     /*===================================================
                           GEOJSON               
